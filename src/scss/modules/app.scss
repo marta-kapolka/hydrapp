@@ -1,0 +1,35 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__title {
+    font-family: $accent;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__counter {
+    color: $primary-dark;
+    font-family: $accent;
+    font-size: 8rem;
+    left: 50%;
+    position: absolute;
+    text-shadow: -4px 4px 0px rgba(255, 255, 255, 0.2),
+      0px -6px 0px rgba(255, 255, 255, 0.2),
+      6px 2px 0px rgba(255, 255, 255, 0.2),
+      -4px -2px 0px rgba(255, 255, 255, 0.2);
+    top: 50%;
+    transform: translate(-50%, -40%);
+  }
+  &__button {
+    background: none;
+    border: none;
+    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.25));
+    margin: .5rem;
+    width: 7rem;
+    &--small {
+      width: 5rem;
+    }
+  }
+}

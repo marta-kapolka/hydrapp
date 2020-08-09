@@ -1,0 +1,32 @@
+.glass-container {
+    position: relative;
+}
+.glass {
+    height: 24rem;
+    margin: 4rem;
+    &__1 {
+        fill: $blue1;
+    }
+    &__2 {
+        fill: $blue2;
+    }
+    &__3 {
+        fill: $blue3;
+    }
+    &__4 {
+        fill: $blue4;
+    }
+    &__5 {
+        fill: $blue5;
+    }
+    &__6 {
+        fill: $blue6;
+    }
+    &__7 {
+        fill: $blue7;
+    }
+    &__8 {
+        fill: $blue8;
+        opacity: 1;
+    }
+}
